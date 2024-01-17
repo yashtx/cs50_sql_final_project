@@ -2,7 +2,7 @@
 
 By Yash Tiwari
 
-Video overview:
+Video overview: ( )
 
 ## Scope
 The Music Database is designed to manage information related to artists, albums, songs, playlists, and user interactions with the music system. It aims to provide a comprehensive platform for organizing, accessing, and sharing music content.
@@ -38,6 +38,9 @@ The Music Database is designed to manage information related to artists, albums,
 - Represent a many-to-many relationship between users and playlists.
 - **Primary Key:** (user_id, playlist_id)
 - **Foreign Keys:** user_id references users(user_id), playlist_id references playlists(playlist_id)
+
+## ER-diagram
+![ER-diagram](ER-diagram.PNG)
 
 ## Relationships among Entities
 
